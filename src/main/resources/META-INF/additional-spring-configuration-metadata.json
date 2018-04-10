@@ -1,0 +1,25 @@
+{
+  "properties": [
+    {
+      "name": "system.api-version.handler.enabled",
+      "description": "是否启用 API 版本分离",
+      "type": "java.lang.Boolean",
+      "defaultValue": true
+    }
+  ],
+  "hints": [
+    {
+      "name": "system.api-version.handler.enabled",
+      "values": [
+        {
+          "value": "true",
+          "description": "启用 API 版本分离"
+        },
+        {
+          "value": "false",
+          "description": "不启用 API 版本分离"
+        }
+      ]
+    }
+  ]
+}
